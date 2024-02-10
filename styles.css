@@ -1,0 +1,38 @@
+html,body{
+    width: 100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 18px;
+}
+
+.header-links,
+a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 10px;
+}
+
+h1{
+    font-size: 24px;
+    margin-left: 150px;
+}
+
