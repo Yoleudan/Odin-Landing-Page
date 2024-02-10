@@ -18,7 +18,7 @@ html,body{
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 18px;
+    padding: 5px;
 }
 
 .header-links,
@@ -28,11 +28,62 @@ a{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-    gap: 10px;
+    gap: 20px;
 }
 
-h1{
+.header-links{
+    margin-right: 150px;
+}
+
+.logo{
     font-size: 24px;
     margin-left: 150px;
 }
 
+.hero{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+
+.hero-left{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 35%;
+    padding: 8px;
+}
+
+h1{
+    color: white;
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.hero-left p{
+    color: #E5E7EB;
+    font-size: large;
+}
+
+.hero-right{
+    padding: 18px;
+    margin-left: auto;
+    margin-right: 150px;
+}
+
+#sign-up{
+    display: flex;
+    width: 100px;
+    height: fit-content;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+#sign-up:hover{
+    background-color: white;
+    color: black;
+}
