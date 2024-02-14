@@ -84,14 +84,15 @@ h1{
     color: white;
     background-color: #3882F6;
     border-radius: 12px;
+    border: none;
 }
-
+#sign-up2:hover,
 #sign-up:hover{
     background-color: white;
     color: black;
 }
 
-h2{
+#smunk{
     align-self: center;
     margin-top: 50px;
 }
@@ -102,7 +103,11 @@ h2{
     justify-content: space-evenly;
     gap: 52px;
 }
-
+img{
+    border:#3882F6;
+    border-radius: 32px;
+    box-shadow: 0 0 0 4px #3882F6;
+}
 .screenshot{
     display: flex;
     flex-direction: column;
@@ -111,6 +116,8 @@ h2{
 
 .img-text{
     max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .quote{
@@ -118,4 +125,60 @@ h2{
     text-align: center;
     font-size: xx-large;
     padding: 50px;
+}
+
+.recruitment{
+    display: flex;
+    flex-direction: column;
+    min-height: 35%;
+    justify-content: center;
+    align-items: center;
+}
+
+.recruit-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3882F6;
+    min-height: 40%;
+    min-width: 66%;
+    padding: 10px;
+    border-radius: 26px;
+}
+
+.recruit-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 5px;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#sign-up2{
+    display: flex;
+    width: 100px;
+    height: fit-content;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 12px;
+    outline: solid white;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    min-height: 15%;
 }
